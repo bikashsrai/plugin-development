@@ -1,0 +1,26 @@
+{
+  "name": "myguten-block",
+  "version": "1.0.0",
+  "description": "Guternberg custom block plugin",
+  "author": "Bikash Rai",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "custom-blocks",
+    "guternberg"
+  ],
+  "homepage": "http://helloplugin.loc/",
+  "main": "index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "23.4.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:js": "wp-scripts lint-js src/index.js",
+    "lint:js-fix": "wp-scripts lint-js src/index.js --fix",
+    "lint:css:src": "wp-scripts lint-style '**/*.css'",
+    "lint:pkg-json": "wp-scripts lint-pkg-json"
+  }
+}
